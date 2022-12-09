@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "bdf2af206277c6ee974bcef2e6aefac270277a7be44d7b230f382b8b690c78a8"
+build_start_time: [1670577401, 51821947]
+build_end_time: [1670577401, 465183019]
+inputs:
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nHelper/main.swift": !private [1670573686, 293518543]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/CommandRunner.swift": !private [1670573686, 315437793]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/SysInfo.swift": !private [1670573688, 151870250]

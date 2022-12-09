@@ -1,0 +1,20 @@
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/SysInfo.swift":
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/SysInfo.d"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/SysInfo.swiftdeps"
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/SysInfo.o"
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/SysInfo.dia"
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Constants.swift":
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Constants.d"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Constants.swiftdeps"
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Constants.o"
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Constants.dia"
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/CommandRunner.swift":
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CommandRunner.o"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CommandRunner.swiftdeps"
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CommandRunner.dia"
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CommandRunner.d"
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nHelper/main.swift":
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/main.d"
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/main.dia"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/main.swiftdeps"
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/main.o"

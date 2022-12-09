@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "37ec61ae36822444b66a9242b45f3979c691cc1a0c04fd90ede23901d5d3679d"
+build_start_time: [1670579150, 832850933]
+build_end_time: [1670579154, 422737121]
+inputs:
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nHelper/main.swift": !private [1670573686, 293518543]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/AnimatableGradients.swift": !private [1670573686, 299631118]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Color.swift": !private [1670573686, 315195083]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/CommandRunner.swift": !private [1670573686, 315437793]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Console.swift": !private [1670573686, 315653562]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Constants.swift": !private [1670573686, 315894842]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/ContentView.swift": !private [1670573686, 316298484]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/CreditsSheetView.swift": !private [1670573686, 316532373]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/ForegroundLinearGradient.swift": !private [1670573686, 316753864]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/SettingsSheetView.swift": !private [1670573688, 147080421]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/SysInfo.swift": !private [1670573688, 151870250]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Utilities.swift": !private [1670573688, 152103900]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/ViewFlip.swift": !private [1670573688, 152293682]
+  "/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/palera1nLoaderApp.swift": !private [1670573688, 155080318]

@@ -1,0 +1,20 @@
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Utilities.swift":
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Utilities.o"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Utilities.swiftdeps"
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Utilities.dia"
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Utilities.d"
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/ViewFlip.swift":
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/ViewFlip.swiftdeps"
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/ViewFlip.dia"
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/ViewFlip.d"
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/ViewFlip.o"
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/CreditsSheetView.swift":
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CreditsSheetView.dia"
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CreditsSheetView.o"
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CreditsSheetView.d"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/CreditsSheetView.swiftdeps"
+"/Users/electrik/Documents/GitHub/palera1n-loader/palera1nLoader/Console.swift":
+  diagnostics: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Console.dia"
+  dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Console.d"
+  swift-dependencies: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Console.swiftdeps"
+  object: "/Users/electrik/Documents/GitHub/palera1n-loader/build/palera1nLoader.build/Debug-iphoneos/palera1nLoader.build/Objects-normal/arm64/Console.o"

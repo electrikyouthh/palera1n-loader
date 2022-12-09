@@ -1,0 +1,5 @@
+Target dependency graph (2 targets)
+palera1nHelper in palera1nLoader, depends on:
+palera1nLoader in palera1nLoader (implicit dependency via file 'palera1nLoader.app' in build phase 'Copy Files')
+palera1nLoader in palera1nLoader, depends on:
+palera1nHelper in palera1nLoader (implicit dependency via file 'palera1nHelper' in build phase 'Link Binary')

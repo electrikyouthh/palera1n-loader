@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,35 @@
 		331E9B862932CBED00363FA9 /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = 331E9B852932CBED00363FA9 /* SWCompression */; };
 		331E9B8A2932CD1000363FA9 /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = 331E9B892932CD1000363FA9 /* SWCompression */; };
 		331E9B8C2932CD1700363FA9 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 331E9B8B2932CD1700363FA9 /* ArgumentParser */; };
-		336B30D22933E35C004BE6AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336B30D12933E35C004BE6AA /* Foundation.framework */; };
-		AA95DB8B292050FA0055F1C0 /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = AA95DB8A292050FA0055F1C0 /* bootstrap.tar */; };
+		355069ED29433769003C9256 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95DBD729205AB90055F1C0 /* CommandRunner.swift */; };
+		355069EE29433778003C9256 /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = 355069F029433778003C9256 /* bootstrap.tar */; };
+		355069F229433785003C9256 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 355069F429433785003C9256 /* Info.plist */; };
+		355069F52943378C003C9256 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 331E9B742932C42300363FA9 /* Makefile */; };
+		355069F629433895003C9256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336B30D12933E35C004BE6AA /* Foundation.framework */; };
+		355069F729433895003C9256 /* Foundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 336B30D12933E35C004BE6AA /* Foundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		355069F929433897003C9256 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF9D85291EEBF70089149B /* IOKit.framework */; };
+		355069FA29433897003C9256 /* IOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF9D85291EEBF70089149B /* IOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		355069FB2943389A003C9256 /* palera1nHelper in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 331E9B7B2932CABC00363FA9 /* palera1nHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		355069FD29433AFE003C9256 /* LSApplicationWorkspace.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC38B5C29356B0700796F04 /* LSApplicationWorkspace.h */; };
+		355069FE29433B06003C9256 /* CoreFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEF9D7A291EEAC10089149B /* CoreFoundation.h */; };
+		355069FF29433B10003C9256 /* IOKitLib.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEF9D7B291EEAC10089149B /* IOKitLib.h */; };
+		35506A0029433B14003C9256 /* palera1nBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = AA95DBD929205B2E0055F1C0 /* palera1nBridging.h */; };
+		35506A0129433B18003C9256 /* bridging or something.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEF9D93291EF22A0089149B /* bridging or something.h */; };
+		35506A0229433B41003C9256 /* HostManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEF9D7D291EEAC10089149B /* HostManager.h */; };
+		35506A0329433B4F003C9256 /* HostManagerBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEF9D80291EEAC10089149B /* HostManagerBridge.h */; };
+		35506A0429433BBE003C9256 /* palera1nLoader.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAEF9D58291ED9F80089149B /* palera1nLoader.app */; platformFilter = ios; };
+		35506A0529433BC2003C9256 /* palera1nHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 331E9B7B2932CABC00363FA9 /* palera1nHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		35506A0629433BF1003C9256 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF9D85291EEBF70089149B /* IOKit.framework */; };
+		35506A0729433BF2003C9256 /* IOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF9D85291EEBF70089149B /* IOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35506A0929433BF3003C9256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336B30D12933E35C004BE6AA /* Foundation.framework */; };
+		35506A0A29433BF3003C9256 /* Foundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 336B30D12933E35C004BE6AA /* Foundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35BA421D29433647005D57B9 /* palera1nHelper in Frameworks */ = {isa = PBXBuildFile; fileRef = 331E9B7B2932CABC00363FA9 /* palera1nHelper */; };
+		35BA421E29433648005D57B9 /* palera1nHelper in Frameworks */ = {isa = PBXBuildFile; fileRef = 331E9B7B2932CABC00363FA9 /* palera1nHelper */; };
+		35BA421F2943364B005D57B9 /* palera1nLoader.app in Resources */ = {isa = PBXBuildFile; fileRef = AAEF9D58291ED9F80089149B /* palera1nLoader.app */; };
+		35BA422029433651005D57B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95DBC82920590B0055F1C0 /* main.swift */; };
+		35BA42212943367A005D57B9 /* SysInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9D74291EE9370089149B /* SysInfo.swift */; };
+		35BA422229433687005D57B9 /* HostManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9D7F291EEAC10089149B /* HostManagerBridge.m */; };
+		35BA422329433697005D57B9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAEF9D7C291EEAC10089149B /* README.md */; };
 		AA95DBCC292059980055F1C0 /* BitByteData in Frameworks */ = {isa = PBXBuildFile; productRef = AA95DBCB292059980055F1C0 /* BitByteData */; };
 		AA95DBD829205AB90055F1C0 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95DBD729205AB90055F1C0 /* CommandRunner.swift */; };
 		AAC38B5929356A1F00796F04 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC38B5829356A1F00796F04 /* Utilities.swift */; };
@@ -33,33 +60,59 @@
 		AAEF9D75291EE9370089149B /* SysInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9D74291EE9370089149B /* SysInfo.swift */; };
 		AAEF9D81291EEAC10089149B /* HostManager.c in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9D77291EEAC10089149B /* HostManager.c */; };
 		AAEF9D83291EEAC10089149B /* HostManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9D7F291EEAC10089149B /* HostManagerBridge.m */; };
-		AAEF9D86291EEBF70089149B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF9D85291EEBF70089149B /* IOKit.framework */; };
 		AAEF9D8C291EEFF00089149B /* ViewFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9D8B291EEFF00089149B /* ViewFlip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		331E9B792932CABC00363FA9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				35506A0529433BC2003C9256 /* palera1nHelper in CopyFiles */,
+				35506A0429433BBE003C9256 /* palera1nLoader.app in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		355069F829433896003C9256 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				355069F729433895003C9256 /* Foundation.framework in Embed Frameworks */,
+				355069FA29433897003C9256 /* IOKit.framework in Embed Frameworks */,
+				355069FB2943389A003C9256 /* palera1nHelper in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		35506A0829433BF2003C9256 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				35506A0729433BF2003C9256 /* IOKit.framework in Embed Frameworks */,
+				35506A0A29433BF3003C9256 /* Foundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		331E9B742932C42300363FA9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		331E9B742932C42300363FA9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; lineEnding = 0; path = Makefile; sourceTree = "<group>"; };
 		331E9B7B2932CABC00363FA9 /* palera1nHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = palera1nHelper; sourceTree = BUILT_PRODUCTS_DIR; };
-		331E9B8D2932D07C00363FA9 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
 		336B30D12933E35C004BE6AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AA95DB8A292050FA0055F1C0 /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = bootstrap.tar; sourceTree = "<group>"; };
-		AA95DBC82920590B0055F1C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AA95DBD729205AB90055F1C0 /* CommandRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandRunner.swift; sourceTree = "<group>"; };
+		355069EF29433778003C9256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = Base; path = Base.lproj/bootstrap.tar; sourceTree = "<group>"; };
+		355069F329433785003C9256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		AA95DBC82920590B0055F1C0 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = main.swift; sourceTree = "<group>"; };
+		AA95DBD729205AB90055F1C0 /* CommandRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CommandRunner.swift; sourceTree = "<group>"; };
 		AA95DBD929205B2E0055F1C0 /* palera1nBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = palera1nBridging.h; sourceTree = "<group>"; };
 		AAC38B5829356A1F00796F04 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		AAC38B5C29356B0700796F04 /* LSApplicationWorkspace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSApplicationWorkspace.h; sourceTree = "<group>"; };
+		AAC38B5C29356B0700796F04 /* LSApplicationWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSApplicationWorkspace.h; sourceTree = "<group>"; };
 		AAC7DE2D291F1250000CD15B /* CreditsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsSheetView.swift; sourceTree = "<group>"; };
 		AAC7DE2F291F17DE000CD15B /* AnimatableGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableGradients.swift; sourceTree = "<group>"; };
 		AAD65B0A2932DCC300DF88E6 /* SettingsSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSheetView.swift; sourceTree = "<group>"; };
@@ -71,12 +124,12 @@
 		AAEF9D6B291EDD7A0089149B /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		AAEF9D70291EDDBB0089149B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AAEF9D72291EE2850089149B /* Console.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
-		AAEF9D74291EE9370089149B /* SysInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SysInfo.swift; sourceTree = "<group>"; };
+		AAEF9D74291EE9370089149B /* SysInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SysInfo.swift; sourceTree = "<group>"; };
 		AAEF9D77291EEAC10089149B /* HostManager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HostManager.c; sourceTree = "<group>"; };
 		AAEF9D7A291EEAC10089149B /* CoreFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFoundation.h; sourceTree = "<group>"; };
-		AAEF9D7B291EEAC10089149B /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
-		AAEF9D7C291EEAC10089149B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AAEF9D7D291EEAC10089149B /* HostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostManager.h; sourceTree = "<group>"; };
+		AAEF9D7B291EEAC10089149B /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IOKitLib.h; sourceTree = "<group>"; };
+		AAEF9D7C291EEAC10089149B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; lineEnding = 0; path = README.md; sourceTree = "<group>"; };
+		AAEF9D7D291EEAC10089149B /* HostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HostManager.h; sourceTree = "<group>"; };
 		AAEF9D7F291EEAC10089149B /* HostManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostManagerBridge.m; sourceTree = "<group>"; };
 		AAEF9D80291EEAC10089149B /* HostManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostManagerBridge.h; sourceTree = "<group>"; };
 		AAEF9D85291EEBF70089149B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -90,8 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD65B0D2932EBF000DF88E6 /* ArgumentParser in Frameworks */,
-				336B30D22933E35C004BE6AA /* Foundation.framework in Frameworks */,
+				35BA421D29433647005D57B9 /* palera1nHelper in Frameworks */,
 				331E9B862932CBED00363FA9 /* SWCompression in Frameworks */,
+				35506A0629433BF1003C9256 /* IOKit.framework in Frameworks */,
+				35506A0929433BF3003C9256 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +156,12 @@
 			files = (
 				331E9B8C2932CD1700363FA9 /* ArgumentParser in Frameworks */,
 				AA95DBCC292059980055F1C0 /* BitByteData in Frameworks */,
+				35BA421E29433648005D57B9 /* palera1nHelper in Frameworks */,
 				AAC7DE36291F1EBD000CD15B /* SDWebImageSwiftUI in Frameworks */,
 				331E9B8A2932CD1000363FA9 /* SWCompression in Frameworks */,
 				AAC7DE33291F1AED000CD15B /* IrregularGradient in Frameworks */,
-				AAEF9D86291EEBF70089149B /* IOKit.framework in Frameworks */,
+				355069F929433897003C9256 /* IOKit.framework in Frameworks */,
+				355069F629433895003C9256 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +171,7 @@
 		331E9B762932C51300363FA9 /* Required */ = {
 			isa = PBXGroup;
 			children = (
-				AA95DB8A292050FA0055F1C0 /* bootstrap.tar */,
+				355069F029433778003C9256 /* bootstrap.tar */,
 			);
 			path = Required;
 			sourceTree = "<group>";
@@ -168,7 +225,7 @@
 		AAEF9D5A291ED9F80089149B /* palera1nLoader */ = {
 			isa = PBXGroup;
 			children = (
-				331E9B8D2932D07C00363FA9 /* Info.plist */,
+				355069F429433785003C9256 /* Info.plist */,
 				331E9B762932C51300363FA9 /* Required */,
 				AA95DB8929204FFC0055F1C0 /* Bootstrapping */,
 				AAEF9D5B291ED9F90089149B /* palera1nLoaderApp.swift */,
@@ -255,6 +312,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		355069FC29433AED003C9256 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355069FD29433AFE003C9256 /* LSApplicationWorkspace.h in Headers */,
+				35506A0029433B14003C9256 /* palera1nBridging.h in Headers */,
+				35506A0129433B18003C9256 /* bridging or something.h in Headers */,
+				355069FE29433B06003C9256 /* CoreFoundation.h in Headers */,
+				355069FF29433B10003C9256 /* IOKitLib.h in Headers */,
+				35506A0229433B41003C9256 /* HostManager.h in Headers */,
+				35506A0329433B4F003C9256 /* HostManagerBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		331E9B7A2932CABC00363FA9 /* palera1nHelper */ = {
 			isa = PBXNativeTarget;
@@ -263,6 +337,7 @@
 				331E9B772932CABC00363FA9 /* Sources */,
 				331E9B782932CABC00363FA9 /* Frameworks */,
 				331E9B792932CABC00363FA9 /* CopyFiles */,
+				35506A0829433BF2003C9256 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAEF9D66291ED9FB0089149B /* Build configuration list for PBXNativeTarget "palera1nLoader" */;
 			buildPhases = (
+				355069FC29433AED003C9256 /* Headers */,
 				AAEF9D54291ED9F80089149B /* Sources */,
 				AAEF9D55291ED9F80089149B /* Frameworks */,
 				AAEF9D56291ED9F80089149B /* Resources */,
+				355069F829433896003C9256 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,9 +384,10 @@
 		AAEF9D50291ED9F80089149B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					331E9B7A2932CABC00363FA9 = {
 						CreatedOnToolsVersion = 14.0;
@@ -320,7 +398,7 @@
 				};
 			};
 			buildConfigurationList = AAEF9D53291ED9F80089149B /* Build configuration list for PBXProject "palera1nLoader" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -350,8 +428,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA95DB8B292050FA0055F1C0 /* bootstrap.tar in Resources */,
+				35BA422329433697005D57B9 /* README.md in Resources */,
+				355069F229433785003C9256 /* Info.plist in Resources */,
+				355069EE29433778003C9256 /* bootstrap.tar in Resources */,
 				AAEF9D60291ED9FB0089149B /* Assets.xcassets in Resources */,
+				35BA421F2943364B005D57B9 /* palera1nLoader.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +443,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355069F52943378C003C9256 /* Makefile in Sources */,
 				331E9B842932CBC000363FA9 /* main.swift in Sources */,
+				35BA42212943367A005D57B9 /* SysInfo.swift in Sources */,
+				355069ED29433769003C9256 /* CommandRunner.swift in Sources */,
+				35BA422229433687005D57B9 /* HostManagerBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331E9B752932C42400363FA9 /* Makefile in Sources */,
 				AAEF9D71291EDDBB0089149B /* Constants.swift in Sources */,
 				AA95DBD829205AB90055F1C0 /* CommandRunner.swift in Sources */,
 				AAEF9D75291EE9370089149B /* SysInfo.swift in Sources */,
@@ -384,18 +470,39 @@
 				AAEF9D6D291EDD7A0089149B /* Color.swift in Sources */,
 				AAEF9D5E291ED9F90089149B /* ContentView.swift in Sources */,
 				AAEF9D5C291ED9F90089149B /* palera1nLoaderApp.swift in Sources */,
-				331E9B752932C42400363FA9 /* Makefile in Sources */,
 				AAEF9D81291EEAC10089149B /* HostManager.c in Sources */,
+				35BA422029433651005D57B9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		355069F029433778003C9256 /* bootstrap.tar */ = {
+			isa = PBXVariantGroup;
+			children = (
+				355069EF29433778003C9256 /* Base */,
+			);
+			name = bootstrap.tar;
+			sourceTree = "<group>";
+		};
+		355069F429433785003C9256 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				355069F329433785003C9256 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		331E9B802932CABD00363FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = palera1nLoader/Assets.xcassets;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				EXECUTABLE_PREFIX = "";
@@ -406,6 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -414,7 +522,9 @@
 		331E9B812932CABD00363FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = palera1nLoader/Assets.xcassets;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				EXECUTABLE_PREFIX = "";
@@ -425,6 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -433,6 +544,7 @@
 		AAEF9D64291ED9FB0089149B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -462,8 +574,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DRIVERKIT_DEPLOYMENT_TARGET = 22.1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -476,23 +591,37 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_CFBundleDisplayName = palera1n;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = palera1n;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1.1;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		AAEF9D65291ED9FB0089149B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -522,24 +651,40 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DRIVERKIT_DEPLOYMENT_TARGET = 22.1;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_KEY_CFBundleDisplayName = palera1n;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = palera1n;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1.1;
+				MACOSX_DEPLOYMENT_TARGET = 13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -547,24 +692,29 @@
 		AAEF9D67291ED9FB0089149B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 566RT33SA2;
+				DEVELOPMENT_TEAM = FDD437X3NF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = palera1nLoader/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = palera1n;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = palera1n;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -576,30 +726,37 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "palera1nLoader/Zefram stolen code/bridging or something.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = "";
+				WATCHOS_DEPLOYMENT_TARGET = "";
 			};
 			name = Debug;
 		};
 		AAEF9D68291ED9FB0089149B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 566RT33SA2;
+				DEVELOPMENT_TEAM = FDD437X3NF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = palera1nLoader/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = palera1n;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = palera1n;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,6 +768,8 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "palera1nLoader/Zefram stolen code/bridging or something.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = "";
+				WATCHOS_DEPLOYMENT_TARGET = "";
 			};
 			name = Release;
 		};
@@ -624,7 +783,7 @@
 				331E9B812932CABD00363FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		AAEF9D53291ED9F80089149B /* Build configuration list for PBXProject "palera1nLoader" */ = {
 			isa = XCConfigurationList;
@@ -633,7 +792,7 @@
 				AAEF9D65291ED9FB0089149B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		AAEF9D66291ED9FB0089149B /* Build configuration list for PBXNativeTarget "palera1nLoader" */ = {
 			isa = XCConfigurationList;
@@ -642,7 +801,7 @@
 				AAEF9D68291ED9FB0089149B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
